@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather App | Bushra Shaikh</title>
+        <link rel="stylesheet" href="style.css">
+
+        <!-- --------- FAVICON ---------- -->
+    <link rel="shortcut icon" href="static/android-chrome-512x512.png" type="image/x-icon">
+
+    </head>
+
+    <body>
+        <div class="card"> 
+            <div class="search">
+                <input type="text" placeholder="Enter City Name" spellcheck="false">
+                <button><img src="static/search.png"></button>
+            </div>
+            <div class="error">
+                <p>Invalid City Name</p>
+            </div>
+            <div class="weather">
+                <img src="static/rain.png" class="weather-icon">
+                <h1 class="temp">22°C</h1>
+                <h2 class="city">New York</h2>
+                <div class="details">
+                    <div class="col">
+                        <img src="static/humidity.png" >
+                        <div>
+                            <p class="humidity">50%</p>
+                            <p>Humidity</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="static/wind.png" >
+                        <div>
+                            <p class="wind">15 km/h</p>
+                            <p>Wind Speed</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <br><br>
+                <div class="name">~ By: Bushra Shaikh ~</div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+
+    </body>
+
+</html>
